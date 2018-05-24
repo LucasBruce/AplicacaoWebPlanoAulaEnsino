@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>New Data Plan 1</name><driver>com.mysql.jdbc.Driver</driver><username>Lucas Bruce</username><password>1996.,.2017</password><savePassword>true</savePassword><url>jdbc:mysql://localhost/aplicacao_crud_db</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>

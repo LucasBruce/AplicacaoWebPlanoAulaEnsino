@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="plano_aula" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c34f7998-4c60-41a9-a222-c20b3637bf08">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="WebContent\reports\DataPlan.xml"/>
+	<parameter name="logo_1" class="java.awt.Image"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT aplicacao_crud_db.ptabela1.p_1id,
+	aplicacao_crud_db.ptabela1.modss,
+	aplicacao_crud_db.ptabela1.`compCD`,
+	aplicacao_crud_db.ptabela1.prof1,
+	aplicacao_crud_db.ptabela1.inst1,
+	aplicacao_crud_db.ptabela1.`aulaN`,
+	aplicacao_crud_db.ptabela1.data,
+	aplicacao_crud_db.ptabela1.`temaC`,
+	aplicacao_crud_db.ptabela1.`tempoA`,
+	aplicacao_crud_db.ptabela1.objet,
+	aplicacao_crud_db.ptabela1.desc1,
+	aplicacao_crud_db.ptabela1.avali1,
+	aplicacao_crud_db.ptabela1.`recN`,
+	aplicacao_crud_db.ptabela1.obs
+FROM aplicacao_crud_db.ptabela1]]>
+	</queryString>
+	<field name="p_1id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="p_1id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="modss" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="modss"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="compCD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="compCD"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="prof1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="prof1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="inst1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="inst1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="aulaN" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="aulaN"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="data" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="data"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="temaC" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="temaC"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="tempoA" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="tempoA"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="objet" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="objet"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="desc1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="desc1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="avali1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="avali1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="recN" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="recN"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<field name="obs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="obs"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela1"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="741" splitType="Stretch">
+			<line>
+				<reportElement x="1" y="0" width="553" height="1" uuid="012d9f20-24b0-4f99-924d-61e64bdbec2a"/>
+			</line>
+			<line>
+				<reportElement x="150" y="70" width="404" height="1" uuid="6c4de19b-6a30-425e-9634-670dc9964b33"/>
+			</line>
+			<line>
+				<reportElement x="150" y="90" width="404" height="1" uuid="a45a46c2-ce2b-44b8-a886-e90bcb12b751"/>
+			</line>
+			<line>
+				<reportElement x="150" y="50" width="404" height="1" uuid="932d5fc2-5215-4c40-af43-f918aeb77b5b"/>
+			</line>
+			<line>
+				<reportElement x="150" y="30" width="404" height="1" uuid="06610de7-99df-45e3-b600-5338987b56a4"/>
+			</line>
+			<line>
+				<reportElement x="1" y="110" width="553" height="1" uuid="04267ce4-78dd-4089-893f-c2d504ab0369"/>
+			</line>
+			<line>
+				<reportElement x="150" y="1" width="1" height="109" uuid="13841ebb-2343-4bba-914c-bf23716d07ac"/>
+			</line>
+			<line>
+				<reportElement x="1" y="140" width="553" height="1" uuid="eea3afc8-3d20-4ec9-abe6-3d3be1f56a2c"/>
+			</line>
+			<line>
+				<reportElement x="1" y="220" width="553" height="1" uuid="3fe3bc73-1111-4024-bac2-ce9b15b6a556"/>
+			</line>
+			<line>
+				<reportElement x="1" y="369" width="553" height="1" uuid="bce827a1-2567-4909-a5c3-892e53d3feda"/>
+			</line>
+			<line>
+				<reportElement x="1" y="500" width="553" height="1" uuid="bcd080f6-6b6f-428c-81c1-9b1fc7f5be6d"/>
+			</line>
+			<line>
+				<reportElement x="1" y="160" width="553" height="1" uuid="02aa709c-763a-4165-acdc-41fe3987ee16"/>
+			</line>
+			<line>
+				<reportElement x="1" y="240" width="553" height="1" uuid="772a37f7-db8c-4ee8-bcfe-5c4973621bee"/>
+			</line>
+			<line>
+				<reportElement x="1" y="389" width="553" height="1" uuid="a24bdc72-0d38-4239-b2d8-3a76cf9d8a51"/>
+			</line>
+			<line>
+				<reportElement x="230" y="30" width="1" height="61" uuid="ac34958c-aa83-452d-9f1c-4e48f354d562"/>
+			</line>
+			<staticText>
+				<reportElement x="150" y="49" width="100" height="20" uuid="adec9d77-8aac-40e6-b7d4-4da8e1dae2da"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Professor:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="30" width="100" height="20" uuid="3c10a1c0-b890-406f-a778-0ca1fe2c2290"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disciplina:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="72" width="70" height="17" uuid="0a006ef0-d748-43a3-9d7c-2f3791fe9599"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tempo Aula:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="420" y="50" width="1" height="40" uuid="5f9df9ce-46d0-452f-86e7-bb8bed1cb2f1"/>
+			</line>
+			<staticText>
+				<reportElement x="430" y="73" width="51" height="15" uuid="e067aee9-c854-4724-a3a6-42fce603b1bf"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Semestre:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="481" y="70" width="1" height="20" uuid="89371c7e-8227-49c8-ae10-5a259999e24b"/>
+			</line>
+			<staticText>
+				<reportElement x="432" y="54" width="49" height="16" uuid="6cb8a3a5-0c73-41b0-9fc8-4f6862c2f165"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Aula N°:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="85" y="140" width="391" height="19" uuid="d48a964c-22db-4f63-8135-f9ddcd5e697a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[OBJETIVO(S)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="90" width="259" height="20" uuid="d21dee73-464e-4bae-bba6-ad7f1de810b8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tema/Conhecimento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="220" width="520" height="20" uuid="188594ee-2e23-4444-979c-69793c56d29f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DESCRIÇÃO DA  AULA / SEQUÊNCIA DE ATIVIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="37" y="370" width="480" height="20" uuid="f9a0eea7-b39f-46da-97f4-698724878dce"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RECURSOS NECESSÁRIOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="500" width="405" height="22" uuid="4a61ab0c-0b44-4d1f-8a86-6b254e9cdf39"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[AVALIAÇÃO]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="1" width="385" height="28" uuid="6a6d2909-eef2-4403-8e85-31a84ddaba08"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{inst1}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="1" y="740" width="553" height="1" uuid="493c1496-d368-4bf1-b8c6-c128715029df"/>
+			</line>
+			<line>
+				<reportElement x="0" y="620" width="553" height="1" uuid="578914e4-0780-4ed3-994f-0c99e5df436e"/>
+			</line>
+			<line>
+				<reportElement x="1" y="520" width="553" height="1" uuid="81a9f4b1-45a7-49ba-8417-5b032a5a0839"/>
+			</line>
+			<line>
+				<reportElement x="0" y="640" width="553" height="1" uuid="feac6b05-01c8-4403-a81d-ed226f3a510c"/>
+			</line>
+			<staticText>
+				<reportElement x="66" y="620" width="405" height="20" uuid="155eb29c-fdb8-4f4f-bdb5-9eb75c4d0da3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[OBSERVAÇÃO(ÕES)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="240" y="50" width="175" height="20" uuid="b11db6dc-93be-4496-845b-d02408523881"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{prof1}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="554" y="0" width="1" height="740" uuid="8236762b-0aeb-4cb3-8cbd-fa7571e60056"/>
+			</line>
+			<line>
+				<reportElement x="1" y="0" width="1" height="740" uuid="05603a1d-74eb-4a42-9f9e-139864aa6779"/>
+			</line>
+			<textField>
+				<reportElement x="490" y="72" width="64" height="16" uuid="754ed836-5921-446d-a0e0-54dc2ab0f32b"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{modss}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="481" y="51" width="1" height="23" uuid="803cf5c2-8266-42e1-924e-f0aeb91c75ef"/>
+			</line>
+			<line>
+				<reportElement x="481" y="30" width="1" height="20" uuid="52905209-f087-4a4a-aabb-4bc532a7fe9d"/>
+			</line>
+			<line>
+				<reportElement x="420" y="30" width="1" height="20" uuid="705ff1fe-1b7d-4f1b-bd64-8a4121671e6b"/>
+			</line>
+			<staticText>
+				<reportElement x="430" y="32" width="41" height="17" uuid="7fbd1556-4b0c-46a5-84b4-c12d0f67fbb0"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data:]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="20" width="130" height="71" uuid="fdc846bb-6686-48dc-af3d-8e8336abc05b"/>
+				<imageExpression><![CDATA[$P{logo_1}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="240" y="34" width="175" height="14" uuid="fb7e4e09-035f-4b01-b3a2-7dc2dc4704cf"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{compCD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="33" width="63" height="15" uuid="725aa7a3-924d-4852-b92c-2cf8f8e34d92"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{data}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="77" width="175" height="14" uuid="4b37a946-97cb-4641-a6bd-0e0892bf98fe"/>
+				<textFieldExpression><![CDATA[$F{tempoA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="51" width="63" height="16" uuid="3118cc72-0f9b-49d8-9108-313b08964f57"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{aulaN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="111" width="551" height="29" uuid="d8a423d4-15e9-42f1-a02d-fe904a71fb02"/>
+				<textFieldExpression><![CDATA[$F{temaC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="161" width="551" height="59" uuid="cffad5fa-3590-459c-ba43-b6e6a0f265bf"/>
+				<textFieldExpression><![CDATA[$F{objet}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="241" width="543" height="128" uuid="2adb3a2d-fc8a-4737-a674-a7b573ee43ec"/>
+				<textFieldExpression><![CDATA[$F{desc1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="390" width="551" height="110" uuid="1f8419ce-f031-4a68-8b4a-95973289569c"/>
+				<textFieldExpression><![CDATA[$F{recN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="522" width="551" height="98" uuid="7bb0a044-6ad7-44ab-976c-dee941768182"/>
+				<textFieldExpression><![CDATA[$F{avali1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="641" width="551" height="99" uuid="a92289dd-a5b3-4af7-9a4d-f14363f5afd2"/>
+				<textFieldExpression><![CDATA[$F{obs}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

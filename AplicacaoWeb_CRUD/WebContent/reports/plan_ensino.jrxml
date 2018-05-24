@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="plano_ensino" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="190c2265-5f7b-4a5f-841a-43ad48129590">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[YXBsaWNhY2FvX2NydWRfZGIucHRhYmVsYSAsMTUsMTUsY2I2MzczOWYtYTZlMy00NTYxLWJmYmUt
+ZGU1MWI0ZGZkNDg0Ow==]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="idParamet" class="java.lang.Integer"/>
+	<parameter name="logo" class="java.awt.Image"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT aplicacao_crud_db.ptabela.p_id,
+	aplicacao_crud_db.ptabela.instit,
+	aplicacao_crud_db.ptabela.curso,
+	aplicacao_crud_db.ptabela.discip,
+	aplicacao_crud_db.ptabela.period,
+	aplicacao_crud_db.ptabela.CH,
+	aplicacao_crud_db.ptabela.semest,
+	aplicacao_crud_db.ptabela.prof,
+	aplicacao_crud_db.ptabela.ement,
+	aplicacao_crud_db.ptabela.CompH,
+	aplicacao_crud_db.ptabela.ContP,
+	aplicacao_crud_db.ptabela.atividP,
+	aplicacao_crud_db.ptabela.avaliac,
+	aplicacao_crud_db.ptabela.bibliG,
+	aplicacao_crud_db.ptabela.bibliC
+FROM aplicacao_crud_db.ptabela
+WHERE 
+	 aplicacao_crud_db.ptabela.p_id = $P{idParamet}]]>
+	</queryString>
+	<field name="instit" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="instit"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="curso" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="curso"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="discip" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="discip"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="period" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="period"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="CH" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CH"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="semest" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="semest"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="prof" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="prof"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="ement" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ement"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="CompH" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CompH"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="ContP" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ContP"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="atividP" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="atividP"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="avaliac" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="avaliac"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="bibliG" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="bibliG"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="bibliC" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="bibliC"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<field name="p_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="p_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ptabela"/>
+	</field>
+	<group name="p_id">
+		<groupExpression><![CDATA[$F{p_id}]]></groupExpression>
+	</group>
+	<detail>
+		<band height="741" splitType="Stretch">
+			<line>
+				<reportElement x="554" y="0" width="1" height="740" uuid="c21ea65d-90d5-474b-9aef-c1598d786622"/>
+			</line>
+			<line>
+				<reportElement x="0" y="0" width="1" height="740" uuid="b9ce7c79-1f84-4120-a2c8-8b37495bb7d8"/>
+			</line>
+			<line>
+				<reportElement x="1" y="740" width="553" height="1" uuid="d88666fa-56b4-46cd-b833-0dfbf9501299"/>
+			</line>
+			<line>
+				<reportElement x="1" y="0" width="553" height="1" uuid="8d673031-da34-4756-82b4-4a95994cdcf6"/>
+			</line>
+			<line>
+				<reportElement x="150" y="70" width="404" height="1" uuid="6ff5ddef-d4e2-440e-992b-38fd0dad4dfe"/>
+			</line>
+			<line>
+				<reportElement x="150" y="90" width="404" height="1" uuid="220a8bf8-f8ee-4534-a650-1fa82b55771c"/>
+			</line>
+			<line>
+				<reportElement x="150" y="50" width="404" height="1" uuid="91c5c636-9324-4d34-80a8-37106369d1e9"/>
+			</line>
+			<line>
+				<reportElement x="150" y="30" width="404" height="1" uuid="db4d4a52-428e-4407-a2eb-e5799cb9a27d"/>
+			</line>
+			<line>
+				<reportElement x="1" y="110" width="553" height="1" uuid="51abfb88-4079-4b19-bc77-9a7b389a1239"/>
+			</line>
+			<line>
+				<reportElement x="150" y="1" width="1" height="109" uuid="c01a5758-1491-45e4-a4da-78238d09beee"/>
+			</line>
+			<line>
+				<reportElement x="1" y="140" width="553" height="1" uuid="27e9c95c-6c11-4d30-bf7f-5a02d7605f46"/>
+			</line>
+			<line>
+				<reportElement x="1" y="220" width="553" height="1" uuid="dbd66b1d-cb90-4a2e-94f7-bdbed40c6562"/>
+			</line>
+			<line>
+				<reportElement x="1" y="290" width="553" height="1" uuid="33c588e5-f7f9-494d-a9d9-a84259706499"/>
+			</line>
+			<line>
+				<reportElement x="1" y="380" width="553" height="1" uuid="a1e1b84b-d021-4d92-85d9-b74f8c4ac3b5"/>
+			</line>
+			<line>
+				<reportElement x="1" y="490" width="553" height="1" uuid="749490fb-732d-4b69-8775-dd62417de626"/>
+			</line>
+			<line>
+				<reportElement x="1" y="580" width="553" height="1" uuid="42f1b7e5-62cd-43e4-bdc3-050b3198948c"/>
+			</line>
+			<line>
+				<reportElement x="1" y="670" width="553" height="1" uuid="d2a8b034-26eb-4287-a2b6-2a7835507033"/>
+			</line>
+			<line>
+				<reportElement x="1" y="690" width="553" height="1" uuid="13feb47a-7641-4e2f-83c8-80e766b40b75"/>
+			</line>
+			<line>
+				<reportElement x="1" y="160" width="553" height="1" uuid="cff7a7cb-87f4-434c-b48c-fb00ffa2cf6f"/>
+			</line>
+			<line>
+				<reportElement x="1" y="240" width="553" height="1" uuid="7a3f7df5-4e27-4229-9987-86c9d0a72f83"/>
+			</line>
+			<line>
+				<reportElement x="1" y="310" width="553" height="1" uuid="a4d643c5-0c28-44d5-821e-c64422b26d88"/>
+			</line>
+			<line>
+				<reportElement x="1" y="400" width="553" height="1" uuid="3a7de6ec-2745-4499-97b5-82fa8df7dca7"/>
+			</line>
+			<line>
+				<reportElement x="1" y="510" width="553" height="1" uuid="e94467ab-f485-48f5-ad44-6da1f537cca1"/>
+			</line>
+			<line>
+				<reportElement x="1" y="600" width="553" height="1" uuid="81924682-62ca-4620-a4e2-5b67dbe73483"/>
+			</line>
+			<textField>
+				<reportElement x="160" y="6" width="280" height="24" uuid="8a5ff72a-a94e-4c9e-89e6-c966a4a77fd8"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{instit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="30" width="150" height="20" uuid="0bf95c39-c420-477e-ab49-f6a24f81f9c9"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{curso}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="250" y="30" width="1" height="81" uuid="0d46d965-a83e-45ae-b6f0-da35398feaed"/>
+			</line>
+			<staticText>
+				<reportElement x="150" y="90" width="100" height="20" uuid="6a9b4099-38ad-4038-95ea-2864d43deef7"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Professor:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="71" width="99" height="19" uuid="661b18f1-3b46-4539-b918-deed23697def"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Período:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="50" width="100" height="20" uuid="203674d1-b02f-4cbf-8953-fce42a1d9622"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disciplina:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="30" width="100" height="20" uuid="5332c455-4ddb-4193-b116-ed5dc2deb178"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Curso:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="420" y="52" width="1" height="38" uuid="b1d13f6f-fc36-48b5-a679-88ca21f2665b"/>
+			</line>
+			<staticText>
+				<reportElement x="430" y="73" width="51" height="15" uuid="e6070739-54ef-493e-aa1b-0c067c762229"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Semestre:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="481" y="70" width="1" height="20" uuid="918668a9-9cc4-4e9f-b7d2-ea8b7739d211"/>
+			</line>
+			<staticText>
+				<reportElement x="432" y="54" width="49" height="16" uuid="e2f792d8-87a0-4ba4-9052-91e65743a32b"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Grade:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="260" y="52" width="155" height="18" uuid="2741233e-4145-47d8-85fe-ef002fd7518b"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{discip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="71" width="150" height="18" uuid="c5577663-98cd-4b2d-972c-6f9b64d52bcf"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{period}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="90" width="190" height="20" uuid="36a06692-313b-4e3c-bb76-4979b22522d4"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{prof}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="73" width="64" height="16" uuid="dd99a312-b1c0-49e6-97af-c91a30a8265e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{semest}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="141" width="330" height="19" uuid="29741682-e0d1-47a5-a6a9-a64eeac7fff4"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.EMENTA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="111" width="380" height="29" uuid="48a7aaec-4256-4c53-b8c7-50a51d346537"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PLANO DE CURSO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="218" width="405" height="22" uuid="a03e28a4-af09-4e0c-ad83-661d1cc5cde6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.COMPÊNTNCIAS E HABILIDADES A SEREM DESENVOLIVIDAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="294" width="350" height="17" uuid="907fbfd9-1009-4de0-b33d-407db4f3e49c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. CONTEÚDO PROGRAMÁTICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="379" width="405" height="22" uuid="d49e3349-2b43-42bc-b9ac-6fe180c6ef55"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. ATIVIDADES PROGRAMADAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="490" width="405" height="20" uuid="dddc4c68-1c23-4d74-888f-edb70d06ebf9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[5. AVALIAÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="580" width="350" height="20" uuid="72f4ac32-aca0-4f54-bca9-bdc6f3e73a8b"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[6. BIBLIOGRAFIA GERAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="670" width="380" height="20" uuid="eb1a8563-3674-48b2-baf3-9dee0fc3f5f4"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[7. BIBLIOGRAFIA COMPLEMENTAR]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="1" y="161" width="545" height="57" uuid="d69b767f-fcbd-40cf-beed-f6b88bd47906"/>
+				<textFieldExpression><![CDATA[$F{ement}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="240" width="544" height="50" uuid="dd960535-03eb-4fee-8207-8d76b2182f13"/>
+				<textFieldExpression><![CDATA[$F{CompH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="311" width="553" height="68" uuid="80e57de7-f88f-4f3f-bc5c-00c53b1f5d5e"/>
+				<textFieldExpression><![CDATA[$F{ContP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="401" width="553" height="89" uuid="76804e20-7a0f-4c3c-b7a4-c5645f2b3774"/>
+				<textFieldExpression><![CDATA[$F{atividP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="510" width="544" height="60" uuid="c2f651ae-3590-4493-a2ba-ee052c8de0f1"/>
+				<textFieldExpression><![CDATA[$F{avaliac}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="601" width="554" height="69" uuid="9df0dc69-bdc0-4330-87c2-590f24d52a3d"/>
+				<textFieldExpression><![CDATA[$F{bibliG}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="690" width="544" height="50" uuid="7578aedc-55a1-427b-8074-ccf44ca37dc4"/>
+				<textFieldExpression><![CDATA[$F{bibliC}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="10" y="20" width="129" height="71" uuid="bc210bcc-4b0c-41f5-8336-638b0ffc30f2"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>
